@@ -78,9 +78,9 @@ class DoNotTrackStats {
 
         add_filter('plugin_action_links_' . plugin_basename( __FILE__), array($this, 'add_plugin_action_links'));
         add_filter('plugin_row_meta', array($this, 'add_plugin_row_meta'), 10, 2);
-        add_shortcode( 'dnts-breakdown', array($this, 'cs_breakdown'));
-        add_shortcode( 'dnts-timeseries', array($this, 'cs_timeseries'));
-        add_shortcode( 'dnts-table', array($this, 'cs_table'));
+        add_shortcode('dnts-breakdown', array($this, 'cs_breakdown'));
+        add_shortcode('dnts-timeseries', array($this, 'cs_timeseries'));
+        add_shortcode('dnts-table', array($this, 'cs_table'));
     }
 
     /**
