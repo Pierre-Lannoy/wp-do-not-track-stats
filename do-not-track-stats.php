@@ -907,6 +907,7 @@ class DoNotTrackStats {
 
 }
 
+
 // Utilities
 
 function dnts_get_settings_page_url($page='dnts-settings', $tab=null, $action=null) {
