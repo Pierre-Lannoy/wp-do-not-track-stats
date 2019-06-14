@@ -8,7 +8,7 @@ For each request received by your site, if it is not excluded by your settings, 
 
 **Do Not Track Stats** respects the privacy choices made by your visitors: it doesn’t handle or store confidential data (like names, ip addresses, etc.) nor does it use any intrusive technology for privacy (like cookies).
 
-Do Not Track Stats is fully integrated with oEmbed Manager to allow you to block the display of embedded content when the visitor explicitly opposes tracking.
+Do Not Track Stats is fully integrated with [oEmbed Manager](https://github.com/Pierre-Lannoy/wp-oembed-manager) to allow you to block the display of embedded content when the visitor explicitly opposes tracking.
 
 See [WordPress directory page](https://wordpress.org/plugins/do-not-track-stats/).
 
